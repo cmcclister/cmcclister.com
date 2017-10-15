@@ -168,10 +168,6 @@ body, .pure-g [class*=pure-u] {
     margin-top: 1em;
 }
 
-.email:focus, .email:hover, .file:focus, .file:hover, .github:focus, .github:hover, .linkedin:focus, .linkedin:hover {
-    color: rgb(130, 124, 150); /* gray */
-}
-
 .email, .email:visited, .fa-envelope { 
     color: rgb(13, 20, 76); /* dark blue */
 }
@@ -239,6 +235,10 @@ body, .pure-g [class*=pure-u] {
 
 .fa-linkedin-square, .linkedin, .linkedin:visited { 
     color: rgb(79, 34, 157); /* dark purple */
+}
+
+.email:focus, .email:hover, .file:focus, .file:hover, .github:focus, .github:hover, .linkedin:focus, .linkedin:hover {
+    color: rgb(130, 124, 150); /* gray */
 }
 
 .fa-quote-left, .fa-quote-right { 
